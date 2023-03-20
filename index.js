@@ -1,7 +1,7 @@
 const express = require('express')
 const auth = require('./routes/auth')
 require('dotenv').config()
-const port = process.env.PORT 
+const port = process.env.PORT || 8080
 const app = express()
 const connection = require("./db")
 const jwt = require("jsonwebtoken")
