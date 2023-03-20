@@ -9,7 +9,7 @@ const commentSchema = new Schema ({
     timestamps:true
 })
 
-console.log(Schema,"schrema",commentSchema)
+// console.log(Schema,"schrema",commentSchema)
 const commentModel = model("comment",commentSchema)
 
 module.exports = commentModel
